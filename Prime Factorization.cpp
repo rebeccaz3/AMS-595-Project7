@@ -42,8 +42,8 @@ void print_vector(std::vector<int> v) {
 // Function to test the prime_factorize function with different numbers
 void test_prime_factorize() {
     print_vector(prime_factorize(2));   // Expected: [2]
-    //print_vector(prime_factorize(72));  // Expected: [2, 2, 2, 3, 3]
-    //print_vector(prime_factorize(196)); // Expected: [2, 2, 7, 7]
+    print_vector(prime_factorize(72));  // Expected: [2, 2, 2, 3, 3]
+    print_vector(prime_factorize(196)); // Expected: [2, 2, 7, 7]
 }
 
 int main() {
